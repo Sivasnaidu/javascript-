@@ -1,37 +1,79 @@
-## Welcome to GitHub Pages
+Javascript 
+* Data structures in js are arrays, sets and maps.
+* Variables are containers to store data for var, let and const.
+Es6 let and const are introduced.
+Var variables can use value and number (value1) but not (1value)
+No space (var first name), camelCase can be used.
+Var and let variable can be changed 
+! Var name = “hari”;
+name = “giri”;
+console.log(name); !
+Const variable cant be changed.
 
-You can use the [editor on GitHub](https://github.com/xami4/javascript-/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+String methods;
+toLowerCase()
+toUpperCase()
+trim()
+slice()
+const  firstName = 'harikrishna';
+let name = firstName.slice(2,4)
+console.log(name)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Data types primitive:
+String
+Number
+Boolean
+Null
+Undefined
+Symbol
+BigInt
 
-### Markdown
+“console.log(typeof firstName)”
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Convert num to string;
+Age  = age + “”;
 
-```markdown
-Syntax highlighted code block
+Covert string to number
+Let myStr = +”32”;
 
-# Header 1
-## Header 2
-### Header 3
+String concaenation 
+const  firstName = 'harikrishna';
+let name = "deva";
+let fullName = firstName + name;
+console.log(fullName)
 
-- Bulleted
-- List
+Template litrals /strings
+const  firstName = 'harikrishna';
+let name = "deva";
+let fullName = ` my name is ${name}  ${firstName}`
 
-1. Numbered
-2. List
+console.log(fullName)
 
-**Bold** and _Italic_ and `Code` text
+Teranary operator
+ let age = 18;
+ let drink = age <= 10 ? "cofee" : "milk";
+ console.log(drink)
 
-[Link](url) and ![Image](src)
-```
+And operator only of both conditions are true &&
+let name = 'wizi';
+let age = 22;
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+if (name[0] === "w" && age < 18){
+  console.log("Hero")
+}
+else {
+  console.log("Villan")
+}
 
-### Jekyll Themes
+|| or operator if onr of the condition is true;
+ let name = 'wizi';
+let age = 22;
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xami4/javascript-/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+if (name[0] === "s" || age < 18){
+  console.log("Hero")
+}
+else {
+  console.log("Villan")
+}
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
