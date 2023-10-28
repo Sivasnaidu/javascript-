@@ -76,4 +76,57 @@ else {
   console.log("Villan")
 }
 
+//Array Methods ::
+
+push();
+Adds one or more elements to the end of an array and returns the new length of the array.
+const fruits = ['apple', 'mango', 'grapes','orange'];
+let fruit1 = fruits.push('banana');
+console.log(fruits);
+
+pop() - Removes the last element from an array and returns that element.
+const fruits = ['apple', 'mango', 'grapes','orange'];
+let fruit1 = fruits.pop();
+console.log(fruits);
+
+unshift() - Adds one or more elements to the beginning of an array and returns the new length of the array.
+const fruits = ['apple', 'mango', 'grapes','orange'];
+let fruit1 = fruits.unshift('banana');
+console.log(fruits);
+
+shift() - Removes the first element from an array and returns that element.
+const fruits = ['apple', 'mango', 'grapes','orange'];
+let fruit1 = fruits.shift();
+console.log(fruits);
+
+concat() - Combines two or more arrays and returns a new array.
+const fruits = ['apple', 'mango', 'grapes','orange'];
+const fruit = ['banana','kiwi']
+let fruit1 = fruits.concat(fruit);
+console.log(fruit1);
+
+join() - Joins all elements of an array into a string with a specified separator.
+const fruits = ['apple', 'mango', 'grapes','orange'];
+const fruit = fruits.join(',')
+console.log(fruit);
+
+slice() - Returns a shallow copy of a portion of an array into a new array.
+const fruits = ['apple', 'banana', 'orange', 'strawberry'];
+const selectedFruits = fruits.slice(1, 3);
+// selectedFruits is ['banana', 'orange']
+
+splice() - Changes the contents of an array by removing, replacing, or adding elements.
+const fruits = ['apple', 'banana', 'orange'];
+fruits.splice(1, 1, 'strawberry');
+// fruits is now ['apple', 'strawberry', 'orange']
+
+forEach()
+const numbers = [1, 2, 3];
+numbers.forEach((number) => {
+    console.log(number * 2);
+});
+// Output: 2, 4, 6
+
+
+
 
